@@ -146,11 +146,17 @@ main {
     background: #FF900E;
     width: 342px;
     color: #FFF;
-    padding: 45px;
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    right: 90px;
 }
 .badge h2{
     font-size: 4rem;
     font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -229,7 +235,7 @@ main {
     }
 
     nav,
-    .sponsors-img-container {
+    .sponsors-img-container ,.features{
         flex-direction: column;
     }
 
@@ -264,6 +270,12 @@ main {
         margin-left: 20px;
         margin-right: 20px;
     }
+    .featurs-images img{
+        width: 100%;
+    }
+    .badge{
+        position: static;
+    }
 
     /* keno kaj hoilona */
     /* .sponsors-img-container{
@@ -280,7 +292,7 @@ main {
 @media screen and (min-width:577px) and (max-width:960px) {
 
     nav,
-    .sponsors-img-container {
+    .sponsors-img-container, .features {
         flex-direction: column;
     }
 
@@ -302,6 +314,12 @@ main {
     .footer-section {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .badge{
+        position: static;
+    }
+    .features{
+
     }
 
 }
