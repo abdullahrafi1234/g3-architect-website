@@ -107,6 +107,13 @@ main{
 }
 
 /* some facts section */
+.section-title-another{
+    margin-bottom: 0px;
+}
+.section-description{
+    max-width: 470px;
+    margin-bottom: 80px;
+}
 
 .facts-container{
     display: flex;
